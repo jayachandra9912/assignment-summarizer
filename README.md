@@ -49,14 +49,6 @@ The flow is straightforward:
 
 ---
 
-## Running the project
-
-### Clone the repo
-
-```bash
-git clone <your-repo-link>
-cd assignment-summarizer
-```
 
 ### Backend setup
 
@@ -68,7 +60,7 @@ npm install
 Create a `.env` file:
 
 ```
-OPENROUTER_API_KEY=your_api_key
+OPENROUTER_API_KEY=api_key
 ```
 
 Run the server:
