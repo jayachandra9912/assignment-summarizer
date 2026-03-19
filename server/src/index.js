@@ -10,7 +10,9 @@ console.log("API KEY:", process.env.OPENROUTER_API_KEY);
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "*"
+}));
 app.use(express.json());
 
 app.post("/api/summarize", async (req, res) => {

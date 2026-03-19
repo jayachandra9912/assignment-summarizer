@@ -18,7 +18,7 @@ function App() {
     setError("");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/summarize", {
+      const res = await axios.post("https://assignment-summarizer.onrender.com/api/summarize", {
         text
       });
       setResult(res.data);
